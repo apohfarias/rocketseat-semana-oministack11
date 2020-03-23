@@ -3,15 +3,18 @@ Código da aplicação desenvolvida durante a Semana OmniStack 11 (23 a 29 de Ma
 
 Projeto da Semana: Aplicação para receber doações
 ## Ambiente:
-* Figma (para prototipagem)
+* Figma (para prototipagem). Link: https://www.figma.com/ 
 * Nodejs 12.16.1 LTS (installing via package manager)
+
 Usando Ubuntu: 
+```console
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
+```
 * node -v (para testar) R: v12.16.1
 * npm -v (para testar) R: 6.13.4
 * yarn -v (para testar) R: 1.19.0
-* Visual Studio Code 
+* Visual Studio Code. Link: https://code.visualstudio.com/download  
 * Extensões: dracula theme,  material icon theme, rocketseat react native e reactJS
 
 
