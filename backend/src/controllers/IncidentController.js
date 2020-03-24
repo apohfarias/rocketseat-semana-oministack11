@@ -1,10 +1,31 @@
 const connection = require ('../database/connection');
 
 module.exports = {
-    //método inicial que irá listar todos os incidents cadastrados
+    //método inicial que irá listar todos os incidents cadastrados, enviando de 5 em 5
     async index(request, response){
-        const incidents =  await connection('incidents').select('*');
+        const { page = 1 } = request.query;
+
+        //contador para pegar o total de cadastros no banco
+        const [count] = await connection('incidents').count();
+
+        //console.log(count);
         
+        const incidents =  await connection('incidents')
+            .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
+            .limit(5)
+            .offset((page-1) *5 )
+            .select([
+                'incidents.*',
+                'ongs.name',
+                'ongs.email',
+                'ongs.whatsapp',
+                'ongs.city',
+                'ongs.uf'
+            ]);
+        
+        //envia para o header o total de registros    
+        response.header('X-Total-Count', count['count(*)']);
+
         //retorno da listagem, vai devolver um array de incidents
         return response.json(incidents);
     },
