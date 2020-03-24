@@ -3,17 +3,22 @@ const crypto = require('crypto');
 
 module.exports = {
 
+    //método que irá listar todas as ongs cadastradas
     async index (request, response) {
         const ongs = await connection('ongs').select('*');
     
+        //retorno da consulta, vai devolver um array de ongs
         return response.json(ongs);
     },
 
+    //método que vai criar uma ong
     async create (request, response){
         const {name, email, whatsapp, city, uf} = request.body;
 
+        //vai criar um id randomico de 4 bytes em hexadecimal
         const id = crypto.randomBytes(4).toString('HEX');
     
+        //inserindo no banco de dados
        await connection('ongs').insert({
             id,
             name,
@@ -22,10 +27,10 @@ module.exports = {
             city,
             uf,
     
-        })
+        });
         //console.log(data);
-    
-       
+        
+        // retorno do método create, devolve o id da ong
         return response.json({ id });
     }
 };
