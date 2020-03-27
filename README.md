@@ -1,21 +1,17 @@
 <h1 align="center">
-    <img alt="Be The Hero" title="#delicinha" src=".github/logo.svg" width="250px" />
+    <img alt="Be The Hero" title="#bethehero" src="/frontend/src/assets/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center">
   🚀 OmniStack Week 11.0
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vsalbuq/be-the-hero">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/apohfarias/rocketseat-semana-oministack11">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vsalbuq/be-the-hero">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/apohfarias/rocketseat-semana-oministack11">
   
-  <a href="https://github.com/vsalbuq/be-the-hero/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vsalbuq/be-the-hero">
-  </a>
-
-  <a href="https://github.com/vsalbuq/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/vsalbuq/be-the-hero">
+  <a href="https://github.com/apohfarias/rocketseat-semana-oministack11/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/apohfarias/rocketseat-semana-oministack11">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -37,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/be-the-hero-desktop.gif" width="50%">
+  <img alt="Frontend" src="https://github.com/vsalbuq/be-the-hero/blob/master/.github/be-the-hero-desktop.gif" width="50%">
 </p>
 
 ## :rocket: Technologies
@@ -48,24 +44,11 @@ This project uses these technologies:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+- [Figma](https://www.figma.com/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 
-## 💻 Workspace:
-
-* Figma. Link: https://www.figma.com/ 
-* Nodejs 12.16.1 LTS (installing via package manager)
-
-Ubuntu: 
-```console
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
-* node -v (para testar) R: v12.16.1
-* npm -v (para testar) R: 6.13.4
-* yarn -v (para testar) R: 1.19.0
-* Visual Studio Code. Link: https://code.visualstudio.com/download  
-* Extensões: dracula theme,  material icon theme, rocketseat react native e reactJS
 
 ## 💻 Project
 
@@ -96,7 +79,7 @@ This project uses the MIT license. Read [LICENSE](LICENSE.md) for details.
 
 ---
 
-Made with ♥ by Vinícius Albuquerque :wave:
+Edited ♥ by @vsalbuq :wave:
 
 
 
