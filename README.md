@@ -44,7 +44,6 @@ This project uses these technologies:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
-- [Figma](https://www.figma.com/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 
