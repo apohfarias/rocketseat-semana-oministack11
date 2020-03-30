@@ -39,19 +39,36 @@
 ## :rocket: Technologies
 
 This project uses these technologies:
-
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+- [Expo](https://expo.io/)
+
+Backend:
+- [Node.js](https://nodejs.org/en/)
+- [Sqlite](https://www.sqlite.org/docs.html)
+- [Express](https://expressjs.com/pt-br/)
+- [Knex](http://knexjs.org/)
+- [Nodemon](https://nodemon.io/)
+- [Jest](https://jestjs.io/)
+
+Frontend:
+
+- [ReactJS](https://reactjs.org)
+- [React icons](https://react-icons.netlify.com/#/)
+- [React toastify](https://github.com/fkhadra/react-toastify)
+- [React router dom](https://www.npmjs.com/package/react-router-dom)
 
 
+Mobile:
+- [React Native](https://facebook.github.io/react-native/))
+- [Expo](https://expo.io/)
+- [MailComposer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+- [React Navigation](https://reactnavigation.org/)
+- [Axios](https://github.com/axios/axios)
 
 
 ## 💻 Project
 
-Soon...
+Be the hero, whose objective is to connect NGOs with the 'heroes' who will help in their causes. 
 
 ## 🔖 Layout
 
